@@ -1,0 +1,53 @@
+.ac-box {
+	border: black solid 1px;
+	padding: 6px;
+	
+	transition: border-width 0.2s;
+}
+
+.ac-box:hover {
+	border-width: 4px;
+}
+
+.ac-hover-left {
+	border-left: solid 0px;
+	transition: background-color 0.2s, border-width 0.2s, padding 0.2s;
+}
+
+.ac-hover-left:hover {
+	border-width: 4px;
+	background-color: rgba(66,66,66,0.2);
+	padding-left: 4px;
+}
+
+.ac-list-clear {
+	list-style: none;
+	padding: 0px;
+}
+
+.ac-hover-header {
+	border-left: solid 0px;
+	transition: border-width 0.2s, padding 0.2s;
+	transition-delay: 0.2s;
+}
+
+.ac-box:hover .ac-hover-header {
+	border-width: 5px;
+	padding-left: 4px;
+}
+
+.hover-red {
+	border-color: darkred;
+}
+
+.hover-green {
+	border-color: forestgreen;
+}
+
+.hover-blue {
+	border-color: royalblue;
+}
+
+.ease {
+	transition-timing-function: ease-in-out;
+}
