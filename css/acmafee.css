@@ -31,6 +31,11 @@
 	transition-delay: 0.2s;
 }
 
+.ac-hover-header:hover {
+	border-width: 5px;
+	padding-left: 4px;
+}
+
 .ac-box:hover .ac-hover-header {
 	border-width: 5px;
 	padding-left: 4px;
