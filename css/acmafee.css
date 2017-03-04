@@ -63,3 +63,12 @@
 .delay {
 	transition-delay: 0.2s;
 }
+
+.ac-image-hover {
+	border: solid 0px;
+	transition: border-width 0.2s;
+}
+
+.ac-image-hover:hover {
+	border-width: 2px;
+}
