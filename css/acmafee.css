@@ -28,7 +28,6 @@
 .ac-hover-header {
 	border-left: solid 0px;
 	transition: border-width 0.2s, padding 0.2s;
-	transition-delay: 0.2s;
 }
 
 .ac-hover-header:hover {
@@ -59,4 +58,8 @@
 
 .ease {
 	transition-timing-function: ease-in-out;
+}
+
+.delay {
+	transition-delay: 0.2s;
 }
