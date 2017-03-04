@@ -36,6 +36,10 @@
 	padding-left: 4px;
 }
 
+.text-red {
+	color: darkred;
+}
+
 .hover-red {
 	border-color: darkred;
 }
