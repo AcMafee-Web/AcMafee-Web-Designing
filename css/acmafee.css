@@ -1,5 +1,5 @@
 .ac-box {
-	border: black solid 1px;
+	border: solid 1px;
 	padding: 6px;
 	
 	transition: border-width 0.2s;
