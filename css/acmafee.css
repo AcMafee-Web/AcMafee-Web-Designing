@@ -30,5 +30,6 @@
 }
 .article-a:hover .article-a-h {
   border-width: 2px;
+  padding-bottom: 1px;
   transition-delay: 0.4s;
 }
