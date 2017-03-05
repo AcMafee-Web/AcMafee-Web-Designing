@@ -6,6 +6,7 @@
 		padding 0.2s,
 		color 0.2s,
 		background-color 0.2s,
+		box-shadow 1s,
 		font-size 0.2s;
 }
 
@@ -51,9 +52,13 @@
 }
 
 body {
+	
+	font-family: "Helvetica Neue", Helvetica;
+	
 	.header {
 		font-size: 24px;
 		border-bottom: 0px solid;
+		background-color:transparent;
 		.transitions;
 	}
 	
@@ -63,9 +68,29 @@ body {
 			border-width: 4px;
 			padding-bottom: 4px;
 			border-color: forestgreen;
-			
 		}
 	}
 }
 
+.article-b {
+	
+	.article-b-fl {
+		font-size: inherit;
+		.transitions;
+	}
+	
+	&:hover .article-b-fl {
+		font-size: 36px;
+	}
+	
+	.article-b-a {
+		font-size: 0px;
+		.transitions;
+	}
+	
+	&:hover .article-b-a {
+		font-size: 12px;
+	}
+	
+}
 
