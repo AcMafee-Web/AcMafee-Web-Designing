@@ -7,7 +7,8 @@
 		color 0.2s,
 		background-color 0.2s,
 		box-shadow 1s,
-		font-size 0.2s;
+		line-height: 0.2s,
+		font-size: 0.2s;
 }
 
 .delay {
@@ -51,7 +52,7 @@
 	}
 }
 
-body {
+html {
 	
 	font-family: "Helvetica Neue", Helvetica;
 	
@@ -74,12 +75,12 @@ body {
 
 .article-b {
 	
-	.article-b-fl {
+	.article-b-h {
 		font-size: inherit;
 		.transitions;
 	}
 	
-	&:hover .article-b-fl {
+	&:hover .article-b-h {
 		font-size: 36px;
 	}
 	
@@ -92,5 +93,15 @@ body {
 		font-size: 12px;
 	}
 	
+	.article-b-fl {
+		float: left;
+		font-size: inherit;
+		.transitions;
+	}
+	
+	&:hover .article-b-fl {
+		font-size: 400%;
+		width: 0.7em;
+	}
 }
 

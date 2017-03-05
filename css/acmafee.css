@@ -33,26 +33,26 @@
   padding-bottom: 1px;
   transition-delay: 0.4s;
 }
-body {
+html {
   font-family: "Helvetica Neue", Helvetica;
 }
-body .header {
+html .header {
   font-size: 24px;
   border-bottom: 0px solid;
   background-color: transparent;
   transition: border-width 0.2s, border-color 0.2s, padding 0.2s, color 0.2s, background-color 0.2s, box-shadow 1s, font-size 0.2s;
 }
-body:hover .header {
+html:hover .header {
   font-size: 32px;
   border-width: 4px;
   padding-bottom: 4px;
   border-color: forestgreen;
 }
-.article-b .article-b-fl {
+.article-b .article-b-h {
   font-size: inherit;
   transition: border-width 0.2s, border-color 0.2s, padding 0.2s, color 0.2s, background-color 0.2s, box-shadow 1s, font-size 0.2s;
 }
-.article-b:hover .article-b-fl {
+.article-b:hover .article-b-h {
   font-size: 36px;
 }
 .article-b .article-b-a {
@@ -61,4 +61,13 @@ body:hover .header {
 }
 .article-b:hover .article-b-a {
   font-size: 12px;
+}
+.article-b .article-b-fl {
+  float: left;
+  font-size: inherit;
+  transition: border-width 0.2s, border-color 0.2s, padding 0.2s, color 0.2s, background-color 0.2s, box-shadow 1s, font-size 0.2s;
+}
+.article-b:hover .article-b-fl {
+  font-size: 400%;
+  line-height: 80%;
 }
