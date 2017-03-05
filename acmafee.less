@@ -1,0 +1,45 @@
+/* LESS Document */
+.transitions {
+	transition: 
+		border-width 0.2s,
+		border-color 0.2s,
+		padding 0.2s,
+		color 0.2s,
+		background-color 0.2s,
+}
+
+.delay {
+	transition-delay: 0.4s;
+}
+
+.article-a {
+	
+	padding: 6px 0px;
+	
+	.article-a-p {
+		border-left: solid 0px;
+		border-right: solid 0px;
+		padding: 4px 0px;
+		.transitions
+	}
+	
+	.article-a-h {
+		border-bottom: solid 0px;
+		.transitions
+	}
+	
+}
+
+.article-a:hover {
+	
+	.article-a-p {
+		border-width: 4px;
+		padding: 4px 6px;
+	}
+	
+	.article-a-h {
+		border-width: 2px;
+		.delay
+	}
+	
+}
